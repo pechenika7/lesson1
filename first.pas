@@ -1,3 +1,3 @@
 ﻿begin
-  
+  writeln ('Hello!');
 end.
