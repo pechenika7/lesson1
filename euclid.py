@@ -7,12 +7,17 @@ def Eucl1(a,b):
     return(a)
 
 def Eucl2(a,b):
-    while a*b>0:
+    while True:
         if a > b:
-            a = a % b
+            try:
+                a = a % b
+            except:
+                return a
         else:
-            b = b % a
-    return(a+b)
+            try:
+                b = b % a
+            except:
+                return b
 
 a = int(input())
 b = int(input())
