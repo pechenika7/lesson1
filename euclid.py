@@ -7,7 +7,7 @@ def Eucl1(a,b):
     return(a)
 
 def Eucl2(a,b):
-    while a != 0 and b != 0:
+    while a*b>0:
         if a > b:
             a = a % b
         else:
