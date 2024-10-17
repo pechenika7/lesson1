@@ -18,5 +18,5 @@ for i in range(len(list_)):
         current_max = sum(list_[i])
         current_num = i
 print(current_max, current_num)
-for i in range(len(list_)):
-    print(i+1, ' sring :', list_[i])
+for num, l in enumerate(list_):
+    print(num+1, ':', l) 
